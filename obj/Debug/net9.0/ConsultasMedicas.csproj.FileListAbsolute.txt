@@ -1,0 +1,8 @@
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.AssemblyInfo.cs
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.RazorAssemblyInfo.cache
+C:\Users\lucas\source\repos\ConsultasMedicas\obj\Debug\net9.0\ConsultasMedicas.RazorAssemblyInfo.cs

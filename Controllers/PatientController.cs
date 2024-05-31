@@ -122,8 +122,7 @@
         }
 
         // GET: Patient/Logout
-        [HttpGet]
-        [ValidateAntiForgeryToken]
+        [HttpPost]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();

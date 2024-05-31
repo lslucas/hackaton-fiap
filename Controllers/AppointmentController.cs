@@ -59,9 +59,10 @@ namespace ConsultasMedicas.Controllers
                 _context.Add(appointment);
                 await _context.SaveChangesAsync();
 
-                string userEmail = User.FindFirstValue(ClaimTypes.Email);
-                userEmail = "lslucas@gmail.com";
-                EmailHelper.SendEmail(userEmail, "Novo agendamento de consulta", $"Nova consulta agendada para a data de {appointment.Date}");
+                string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var user = _context.Users.FirstOrDefault(e => e.Id == userId);
+
+                EmailHelper.SendEmail(user.NormalizedEmail, "Novo agendamento de consulta", $"Nova consulta agendada para a data de {appointment.Date}");
 
                 return RedirectToAction(nameof(Index));
             }
